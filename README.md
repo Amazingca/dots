@@ -2,29 +2,33 @@
 
 This repository hosts my configuration files for use with Hyprland.
 
+| With no applications open | With Zen open |
+|---|---|
+| ![](https://github.com/Amazingca/dots/blob/main/desktop_background.png?raw=true) | ![](https://github.com/Amazingca/dots/blob/main/desktop_with_application.png?raw=true) |
+
 ### Required Packages
 
-Hyprland
-Hyprpaper *[wallpaper utility]*
-Hyprlock *[for lock screen]*
-Waybar *[composable menu that provides additional information within the environment]*
+ - [x] Hyprland
+ - [x] Hyprpaper *[wallpaper utility]*
+ - [x] Hyprlock *[for lock screen]*
+ - [x] Waybar *[composable menu that provides additional information within the environment]*
 
 
 ### Optional Packages
 (These are used by default within `hyprland.conf` but are not necessary to the overall theme)
 
-nautilus *[Gnome terminal]*
-zen *[Web browser]*
-discord *[online communication platform]*
-minecraft *[it's a sandbox game]*
-hyprshot *[screenshot utility]*
+ - [ ] nautilus *[Gnome terminal]*
+ - [ ] zen *[Web browser]*
+ - [ ] discord *[online communication platform]*
+ - [ ] minecraft *[it's a sandbox game]*
+ - [ ] hyprshot *[screenshot utility]*
 
 ### Credits
 
 Most of these configurations are mixed-and-matched from various other dotfiles. Here's a brief synopsis of where I adapted them:
 
 [end-4 -- illogical-impulse](https://github.com/end-4/dots-hyprland)
- - GDK themes
+ - GTK themes
  - Hyprlock configurations
 
 [d00m1k -- SimpleBlueColorWaybar](https://github.com/d00m1k/SimpleBlueColorWaybar)
@@ -47,7 +51,7 @@ I made some minor adjustments to the Waybar config files:
 
 I haven't adjusted the colors besides from the original defaults that end-4 auto-generated from the desktop background. In time, I'll likely adjust these settings.
 
-In addition, it is likely that there are some required packages that I missed, and will update this repository accordingly if/when I determine them. Since the adaptations I made were built on top of previously installed packages -- of which there were many -- it's possible that I've missed some.
+In addition, it is likely that there are some required packages that I missed, and will update this repository accordingly if/when I determine them. Since the adaptations I made were built on top of previously installed packages — of which there were many — it's possible that I've missed some.
 
 ### Installation
 
